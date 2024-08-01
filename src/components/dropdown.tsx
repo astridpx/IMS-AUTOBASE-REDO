@@ -28,7 +28,7 @@ export default function Dropdown({
             <option key={option} className="" value={option}>
               {isyear && i !== options.length - 1
                 ? `${option}s`
-                : i === options.length - 1
+                : isyear && i === options.length - 1
                 ? `${option}s and older`
                 : option}
             </option>
