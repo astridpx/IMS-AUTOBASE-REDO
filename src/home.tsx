@@ -92,7 +92,7 @@ export default function Home() {
 
         <div className="text-center mt-36 ">
           <h2 className="px-8 pb-6 mx-auto text-3xl font-bold text-center border-b-4 lg:text-5xl border-yellow-400/45 lg:w-max w-96">
-            What can we do for you? {Number(filterYearsFrom) + 10}
+            What can we do for you?
           </h2>
         </div>
 
